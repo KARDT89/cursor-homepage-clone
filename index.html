@@ -8,29 +8,31 @@
         <title>Cursor Homepage Clone</title>
     </head>
     <body>
-        <nav>
-            <div id="navbar-logo">
-                <img
-                    src="./assets/LOCKUP_HORIZONTAL_2D_DARK.svg"
-                    alt="cursor image"
-                    width="100px"
-                />
+        <header class="nav">
+            <div class="nav-inner container">
+                <div id="navbar-logo">
+                    <img
+                        src="./assets/LOCKUP_HORIZONTAL_2D_DARK.svg"
+                        alt="cursor image"
+                        width="95.75px"
+                    />
+                </div>
+                <div>
+                    <ul class="navbar-nav">
+                        <li>Features</li>
+                        <li>Enterprise</li>
+                        <li>Pricing</li>
+                        <li>Resources</li>
+                    </ul>
+                </div>
+                <div class="navbar-button">
+                    <button class="btn btn-dark">Sign in</button>
+                    <button class="btn">Download</button>
+                </div>
             </div>
-            <div>
-                <ul class="navbar-nav">
-                    <li>Features</li>
-                    <li>Enterprise</li>
-                    <li>Pricing</li>
-                    <li>Resources</li>
-                </ul>
-            </div>
-            <div class="navbar-button">
-                <button class="btn btn-dark">Sign in</button>
-                <button class="btn">Download</button>
-            </div>
-        </nav>
+        </header>
         <main class="page">
-            <section class="hero-1">
+            <section class="container hero-1">
                 <div>
                     <h1>
                         Built to make you extraordinarily productive,<br />
@@ -42,7 +44,7 @@
                 </div>
                 <img src="./assets/hero.PNG" alt="hero-image" />
             </section>
-            <section class="company">
+            <section class="container company">
                 <p>Trusted every day by millions of professional developers.</p>
                 <div class="company-list">
                     <div class="company-list-child">
@@ -71,7 +73,7 @@
                     </div>
                 </div>
             </section>
-            <section class="feature">
+            <section class="container feature">
                 <div class="feature-1">
                     <div class="feature-text">
                         <span>
@@ -124,80 +126,231 @@
                             </p>
                             <p class="hero-muted-text">else you work.</p>
                         </span>
-                        <p class="hero-red-text">Learn about Cursor's ecosystem →</p>
+                        <p class="hero-red-text">
+                            Learn about Cursor's ecosystem →
+                        </p>
                     </div>
                     <div>
                         <img src="./assets/feature-2.PNG" alt="hero-2" />
                     </div>
                 </div>
             </section>
-            <section class="testimonial">
+            <section class="container testimonial">
                 <h1 id="testimonial-intro">The new way to build software.</h1>
                 <div class="testimonial-area">
                     <div class="testimonial-card">
-                        <p>It was night and day from one batch to another, adoption went from single digits to over 80%. It just spread like wildfire, all the best builders were using Cursor.</p>
+                        <p>
+                            It was night and day from one batch to another,
+                            adoption went from single digits to over 80%. It
+                            just spread like wildfire, all the best builders
+                            were using Cursor.
+                        </p>
                         <div class="testimonial-author">
-                            <img src="https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fdiana-hu-avatar.png&w=48&q=70" alt="author-img" class="author-img">
+                            <img
+                                src="https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fdiana-hu-avatar.png&w=48&q=70"
+                                alt="author-img"
+                                class="author-img"
+                            />
                             <span>
                                 <p class="testimonial-primary-text">Diana Hu</p>
-                                <p class="testimonial-muted-text">General Partner, Y Combinator</p>
+                                <p class="testimonial-muted-text">
+                                    General Partner, Y Combinator
+                                </p>
                             </span>
                         </div>
                     </div>
                     <div class="testimonial-card">
-                        <p>The most useful AI tool that I currently pay for, hands down, is Cursor. It's fast, autocompletes when and where you need it to, handles brackets properly, sensible keyboard shortcuts, bring-your-own-model... everything is well put together.</p>
+                        <p>
+                            The most useful AI tool that I currently pay for,
+                            hands down, is Cursor. It's fast, autocompletes when
+                            and where you need it to, handles brackets properly,
+                            sensible keyboard shortcuts, bring-your-own-model...
+                            everything is well put together.
+                        </p>
                         <div class="testimonial-author">
-                            <img src="https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fshadcn-avatar.png&w=48&q=70" alt="author-img" class="author-img">
+                            <img
+                                src="https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fshadcn-avatar.png&w=48&q=70"
+                                alt="author-img"
+                                class="author-img"
+                            />
                             <span>
                                 <p class="testimonial-primary-text">shadcn</p>
-                                <p class="testimonial-muted-text">Creator of shadcn/ui</p>
+                                <p class="testimonial-muted-text">
+                                    Creator of shadcn/ui
+                                </p>
                             </span>
                         </div>
                     </div>
                     <div class="testimonial-card">
-                        <p>The best LLM applications have an autonomy slider: you control how much independence to give the AI. In Cursor, you can do Tab completion, Cmd+K for targeted edits, or you can let it rip with the full autonomy agentic version.</p>
+                        <p>
+                            The best LLM applications have an autonomy slider:
+                            you control how much independence to give the AI. In
+                            Cursor, you can do Tab completion, Cmd+K for
+                            targeted edits, or you can let it rip with the full
+                            autonomy agentic version.
+                        </p>
                         <div class="testimonial-author">
-                            <img src="https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fandrej-karpathy-avatar.png&w=48&q=70" alt="author-img" class="author-img">
+                            <img
+                                src="https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fandrej-karpathy-avatar.png&w=48&q=70"
+                                alt="author-img"
+                                class="author-img"
+                            />
                             <span>
-                                <p class="testimonial-primary-text">Andrej Karpathy</p>
-                                <p class="testimonial-muted-text">CEO, Eureka Labs</p>
+                                <p class="testimonial-primary-text">
+                                    Andrej Karpathy
+                                </p>
+                                <p class="testimonial-muted-text">
+                                    CEO, Eureka Labs
+                                </p>
                             </span>
                         </div>
                     </div>
                     <div class="testimonial-card">
-                        <p>Cursor quickly grew from hundreds to thousands of extremely enthusiastic Stripe employees. We spend more on R&D and software creation than any other undertaking, and there's significant economic outcomes when making that process more efficient and productive.</p>
+                        <p>
+                            Cursor quickly grew from hundreds to thousands of
+                            extremely enthusiastic Stripe employees. We spend
+                            more on R&D and software creation than any other
+                            undertaking, and there's significant economic
+                            outcomes when making that process more efficient and
+                            productive.
+                        </p>
                         <div class="testimonial-author">
-                            <img src="https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fpatrick-collison-avatar.png&w=48&q=70" alt="author-img" class="author-img">
+                            <img
+                                src="https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fpatrick-collison-avatar.png&w=48&q=70"
+                                alt="author-img"
+                                class="author-img"
+                            />
                             <span>
-                                <p class="testimonial-primary-text">Patrick Collison</p>
-                                <p class="testimonial-muted-text">Co‑Founder & CEO, Stripe</p>
+                                <p class="testimonial-primary-text">
+                                    Patrick Collison
+                                </p>
+                                <p class="testimonial-muted-text">
+                                    Co‑Founder & CEO, Stripe
+                                </p>
                             </span>
                         </div>
                     </div>
                     <div class="testimonial-card">
-                        <p>It's official. <br><br>I hate vibe coding. <br>I love Cursor tab coding. <br><br>It's wild.</p>
+                        <p>
+                            It's official. <br /><br />I hate vibe coding.
+                            <br />I love Cursor tab coding. <br /><br />It's
+                            wild.
+                        </p>
                         <div class="testimonial-author">
-                            <img src="https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Ftheprimeagen-avatar.png&w=48&q=70" alt="author-img" class="author-img">
+                            <img
+                                src="https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Ftheprimeagen-avatar.png&w=48&q=70"
+                                alt="author-img"
+                                class="author-img"
+                            />
                             <span>
-                                <p class="testimonial-primary-text">ThePrimeagen</p>
-                                <p class="testimonial-muted-text">@ThePrimeagen</p>
+                                <p class="testimonial-primary-text">
+                                    ThePrimeagen
+                                </p>
+                                <p class="testimonial-muted-text">
+                                    @ThePrimeagen
+                                </p>
                             </span>
                         </div>
                     </div>
                     <div class="testimonial-card">
-                        <p>It's definitely becoming more fun to be a programmer. It's less about digging through pages and more about what you want to happen. We are at the 1% of what's possible, and it's in interactive experiences like Cursor where models like GPT-5 shine brightest.</p>
+                        <p>
+                            It's definitely becoming more fun to be a
+                            programmer. It's less about digging through pages
+                            and more about what you want to happen. We are at
+                            the 1% of what's possible, and it's in interactive
+                            experiences like Cursor where models like GPT-5
+                            shine brightest.
+                        </p>
                         <div class="testimonial-author">
-                            <img src="https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fgreg-brockman-avatar.jpg&w=48&q=70" alt="author-img" class="author-img">
+                            <img
+                                src="https://cursor.com/marketing-static/_next/image?url=https%3A%2F%2Fptht05hbb1ssoooe.public.blob.vercel-storage.com%2Fassets%2Favatars%2Fgreg-brockman-avatar.jpg&w=48&q=70"
+                                alt="author-img"
+                                class="author-img"
+                            />
                             <span>
-                                <p class="testimonial-primary-text">Greg Brockman</p>
-                                <p class="testimonial-muted-text">President, OpenAI</p>
+                                <p class="testimonial-primary-text">
+                                    Greg Brockman
+                                </p>
+                                <p class="testimonial-muted-text">
+                                    President, OpenAI
+                                </p>
                             </span>
                         </div>
                     </div>
                 </div>
             </section>
-            <section>
-                test
+            <section class="container usecase">
+                <h2>Stay on the frontier</h2>
+                <div class="inner-usecase">
+                    <div class="usecase-item">
+                        <div>
+                            <p class="primary-text">Access the best models</p>
+                            <p class="muted-text">
+                                Choose between every cutting-edge model from
+                                OpenAI, Anthropic, Gemini, and xAI.
+                            </p>
+                        </div>
+                        <p class="red-text">Explore models ↗</p>
+                        <img src="./assets/usecase1.PNG" alt="" />
+                    </div>
+                    <div class="usecase-item">
+                        <div>
+                            <p class="primary-text">
+                                Complete codebase understanding
+                            </p>
+                            <p class="muted-text">
+                                Cursor learns how your codebase works, no matter
+                                the scale or complexity
+                            </p>
+                        </div>
+                        <p class="red-text">Learn about semantic search ↗</p>
+                        <img src="./assets/usecase2.PNG" alt="" />
+                    </div>
+                    <div class="usecase-item">
+                        <div>
+                            <p class="primary-text">
+                                Develop enduring software
+                            </p>
+                            <p class="muted-text">
+                                Trusted by over half of the Fortune 500 to
+                                accelerate development, securely and at scale.
+                            </p>
+                        </div>
+                        <p class="red-text">Explore enterprise →</p>
+                        <img src="./assets/usecase3.PNG" alt="" />
+                    </div>
+                </div>
+            </section>
+            <section class="container">
+                <h2>Changelog</h2>
+                <div class="changelog">
+                    <div class="changelog-item">
+                        <p class="muted-text">
+                            <button class="btn btn-dark">2.4</button> Jan 22,
+                            2026
+                        </p>
+                        <p>Subagents, Skills and Image Generation</p>
+                    </div>
+                    <div class="changelog-item">
+                        <p class="muted-text">Jan 16, 2026</p>
+                        <p>CLI Agent Modes and Cloud Handoff</p>
+                    </div>
+                    <div class="changelog-item">
+                        <p class="muted-text">
+                         Jan 8,
+                            2026
+                        </p>
+                        <p>New CLI Features and Improved CLI Performance</p>
+                    </div>
+                    <div class="changelog-item">
+                        <p class="muted-text">
+                            <button class="btn btn-dark">2.3</button> Dec 22,
+                            2025
+                        </p>
+                        <p>Layout Customization and Stability Improvements</p>
+                    </div>
+                </div>
+                <p class="red-text">See what's new in Cursor →</p>
             </section>
         </main>
     </body>
